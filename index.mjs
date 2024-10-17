@@ -14,3 +14,7 @@ app.use(
 app.get("/", (req, res) => {
     res.sendFile(__dirname, "./bidi/index.html")
 })
+server.on("request", (req, res) => {
+    app(req, res)
+})
+server.on("listening")

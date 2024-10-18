@@ -17,4 +17,9 @@ app.get("/", (req, res) => {
 server.on("request", (req, res) => {
     app(req, res)
 })
-server.on("listening")
+server.on("listening", () => {
+    console.log("the server has been turned on")
+})
+server.listen({
+    port: 9000
+})

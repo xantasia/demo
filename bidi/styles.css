@@ -1,4 +1,27 @@
-.button {
-    width: 75px;
-    height: 30px;
+.heading {
+  font-size: 3em;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.emphasis {
+  background-color: #4ac29a; /* fallback for old browsers */
+  background-image: -webkit-linear-gradient(
+    to right,
+    #bdfff3,
+    #4ac29a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background-image: linear-gradient(
+    to right,
+    #bdfff3,
+    #4ac29a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

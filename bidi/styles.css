@@ -28,3 +28,45 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.nav {
+  height: 50px;
+  background-color: transparent;
+  border: black 1px solid;
+  margin: 0 auto;
+  position: fixed;
+  display: flex;
+  backdrop-filter: blur(3px);
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  text-align: center;
+  padding: 2px;
+
+}
+.nav-item{
+  border-radius: 999px;
+  height: 50px;
+  backdrop-filter: blur(3px);
+  width: 100px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  transition: all 0.2s ease;
+  z-index: 3;
+}
+.nav-item:hover {
+  border-radius: 999px;
+  height: 50px;
+  backdrop-filter: blur(3px);
+  width: 100px;
+  background-color: rgba(0,0,0,0.9);
+  color: white;
+  border: none;
+  transition: all 0.2s ease;
+  z-index: 3;
+
+}

@@ -1,6 +1,9 @@
 .heading {
   font-size: 3em;
 }
+body {
+  font-family: "Geist Mono", sans-serif;
+}
 .centered {
   display: flex;
   justify-content: center;
